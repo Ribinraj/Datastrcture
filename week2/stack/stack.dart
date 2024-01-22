@@ -73,10 +73,10 @@ class stack {
   }
 
   if (prevNode != null) {
-    // If the number of elements is odd, skip the middle element
+   
     prevNode.next = slowPointer!.next;
   } else {
-    // If the number of elements is even, update the top to skip the middle element
+   
     Top = slowPointer!.next;
   }
 }
